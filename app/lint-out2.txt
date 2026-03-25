@@ -1,0 +1,17 @@
+
+C:\Users\Krishna\Downloads\velavan folder\Project ui\app\src\components\AdminProfile.tsx
+  1:27  error  'useEffect' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\Krishna\Downloads\velavan folder\Project ui\app\src\components\FilterBar.tsx
+  34:6  warning  React Hook useEffect has missing dependencies: 'setAssigneeFilter', 'setDueDateFromFilter', 'setDueDateToFilter', 'setPriorityFilter', and 'setStatusFilter'. Either include them or remove the dependency array                  react-hooks/exhaustive-deps
+  77:6  warning  React Hook useEffect has missing dependencies: 'clearFilters', 'setAssigneeFilter', 'setDueDateFromFilter', 'setDueDateToFilter', 'setPriorityFilter', and 'setStatusFilter'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+C:\Users\Krishna\Downloads\velavan folder\Project ui\app\src\components\ui\ErrorBoundary.tsx
+  213:18  error  Parsing error: ',' expected
+
+C:\Users\Krishna\Downloads\velavan folder\Project ui\app\src\components\views\TimelineView.tsx
+  94:9  warning  The 'today' object construction makes the dependencies of useMemo Hook (at line 98) change on every render. To fix this, wrap the initialization of 'today' in its own useMemo() Hook   react-hooks/exhaustive-deps
+  94:9  warning  The 'today' object construction makes the dependencies of useMemo Hook (at line 103) change on every render. To fix this, wrap the initialization of 'today' in its own useMemo() Hook  react-hooks/exhaustive-deps
+
+Γ£û 6 problems (2 errors, 4 warnings)
+
