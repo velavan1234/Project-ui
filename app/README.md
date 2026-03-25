@@ -172,3 +172,6 @@ I solved the layout shift problem by creating a separate placeholder element tha
 
 **One Thing to Refactor:**
 With more time, I would refactor the virtual scrolling implementation to use a more sophisticated windowing algorithm that handles variable row heights. Currently, all rows have a fixed height (64px), which works well for this use case but wouldn't scale to content with dynamic heights. I'd implement a measured height system that calculates each row's height dynamically and adjusts the scroll position accordingly.
+## Lighthouse Score
+
+![Lighthouse Score](./lighthouse.png)
