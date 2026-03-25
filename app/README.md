@@ -175,3 +175,13 @@ With more time, I would refactor the virtual scrolling implementation to use a m
 ## Lighthouse Score
 
 ![Lighthouse Score](./lighthouse.png)
+
+## Explanation
+
+The most challenging UI problem I solved was implementing smooth drag-and-drop functionality without using any external libraries. Handling element positioning while maintaining performance and avoiding reflows required careful event management and DOM calculations.
+
+To handle the drag placeholder without causing layout shifts, I used a fixed-height placeholder element that occupies the original space of the dragged item. This ensured that other elements did not collapse or jump during dragging. Additionally, I calculated the target index dynamically based on cursor position, allowing smooth reordering.
+
+For virtual scrolling, I rendered only the visible items based on the scroll position and container height. This significantly reduced the number of DOM nodes and improved performance, especially for large datasets.
+
+If I had more time, I would refactor the drag-and-drop logic into reusable hooks and improve accessibility by adding keyboard support and ARIA attributes. This would make the application more scalable and user-friendly.
